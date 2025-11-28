@@ -18,7 +18,7 @@ jobs:
     uses: ./.github/workflows/reusable-test.yml
     with:
       python-version: "3.12"
-      test-command: "pytest -v --cov"
+      test-command: "pytest -v"
     secrets:
       API_KEY: ${{ secrets.API_KEY }}
 
