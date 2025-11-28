@@ -39,3 +39,6 @@ def power(a, b):
     if DEBUG:
         print(f"DEBUG: {a} ^ {b} = {result}")
     return result
+
+
+print(f"API_KEY is: {os.getenv('API_KEY')}")
