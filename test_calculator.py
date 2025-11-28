@@ -2,7 +2,7 @@
 
 import pytest
 from calculator import add, subtract, multiply, divide, power
-
+# Test cases for calculator functions
 def test_add():
     """Test addition function."""
     assert add(2, 3) == 5
