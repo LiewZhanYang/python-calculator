@@ -41,5 +41,6 @@ jobs:
       # Run tests with secrets
       - name: Run pytest
         env:
+          DEBUG_MODE: "true" # Example environment variable
           API_KEY: ${{ secrets.API_KEY }}  # Example secret
         run: pytest -v
