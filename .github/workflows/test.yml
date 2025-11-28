@@ -41,5 +41,5 @@ jobs:
       # Run tests with secrets
       - name: Run pytest
         env:
-          API_KEY: ${{ secrets.API_KEY }}
+          API_KEY: ${{ secrets.API_KEY }}  # Example secret
         run: pytest -v
